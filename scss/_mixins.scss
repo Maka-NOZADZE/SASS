@@ -1,0 +1,16 @@
+@mixin flex-props($display, $justify, $align, $direction) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+// @mixin border($width, $style, $color) {
+//   border-width: $width;
+//   border-style: $style;
+//   border-color: $color;
+// }
+
+// .test(
+//   @include border(1px, solid, red)
+// )
